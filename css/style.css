@@ -19,8 +19,8 @@ b{
 
 .wrapper
 {
-    margin:0 auto; 
-    max-width:1280px;
+    margin:0 auto;
+    max-width:1380px;
 
     padding-left:10px;
     padding-right:10px;
@@ -51,6 +51,8 @@ nav
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+
+    height:100px;
 }
 
 nav a{
@@ -63,7 +65,11 @@ nav a{
     border-width:2px;
     border-style: dotted;
 
+    font-size:18px;
+
     transition: 0.2s;
+/*
+    height:100px; */
 }
 
 nav a:hover{
@@ -163,6 +169,38 @@ footer p{
     font-size:22px;
 
     width:fit-content;
+}
+
+.textalign-left-container button{
+    color:white;
+    background-color: rgba(0, 0, 0, 0);
+
+    border-width:0px;
+    border-radius: 6px;
+
+    padding:10px;
+
+    margin-top:8px;
+
+    transition: 0.2s;
+
+    width:210px;
+}
+
+.textalign-left-container button:hover{
+    background-color:rgb(240, 45, 15);
+
+    transition: 0.2s;
+}
+
+.textalign-left-container button:left{
+    background-color:rgba(0, 0, 0, 0);
+
+    transition: 0.2s;
+}
+
+.textalign-left-container input[type=number]{
+    width:250px;
 }
 
 .arrow-icon{

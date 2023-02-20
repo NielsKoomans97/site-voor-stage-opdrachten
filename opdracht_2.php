@@ -16,7 +16,7 @@
             <img class="vraagteken" src="img/vraagteken.png">
             <div class="textalign-right-container">
                 <p class="container-title">Uitleg</p>
-                <span>              
+                <span>
                     <?php
                         $_filename = "./opdracht2/challenge.txt";
                         $_contents = file_get_contents($_filename);
@@ -25,7 +25,7 @@
                         echo nl2br($_contents);
                     ?>
                 </span>
-            </div>        
+            </div>
         </div>
         <div class="pagepart pagepart-left-container">
             <div class="textalign-left-container">
@@ -45,13 +45,13 @@
                     <?php
                         $_filename = "./opdracht2/output.txt";
                         $_contents = file_get_contents($_filename);
-                        //   $_contents = readfile($_filename);
-                        //   echo $_contents;
-                           echo nl2br($_contents);
+
+                        echo nl2br($_contents);
                     ?>
                 </span>
             </div>
-        </div>    
+        </div>
+
     </main>
     <?php require_once('footer.php') ?>
     </div>

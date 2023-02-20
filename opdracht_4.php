@@ -16,7 +16,7 @@
                 <img class="vraagteken" src="img/vraagteken.png">
                 <div class="textalign-right-container">
                     <p class="container-title">Uitleg</p>
-                    <span>              
+                    <span>
                         <?php
                             $_filename = "./opdracht4/challenge.txt";
                             $_contents = file_get_contents($_filename);
@@ -25,14 +25,13 @@
                             echo nl2br($_contents);
                         ?>
                     </span>
-                </div>        
+                </div>
             </div>
             <div class="pagepart pagepart-left-container">
                 <div class="textalign-left-container">
                     <p class="container-title">Input</p>
-                    <span>
-                        De input die ik gegeven heb is <b>3992</b>
-                    </span>
+                    <input id="input" type="number">
+                    <button id="convert">Convert to Roman digits</button>
                 </div>
                 <img class="arrow-icon-reversed" src="img/output.png">
             </div>
@@ -40,17 +39,13 @@
                 <img class="vraagteken" src="img/output.png">
                 <div class="textalign-right-container">
                     <p class="container-title">Output</p>
-                    <span>
-                        <?php
-                            $_filename = "./opdracht4/output.txt";
-                            $_contents = file_get_contents($_filename);
-                            //   $_contents = readfile($_filename);
-                            //   echo $_contents;
-                            echo nl2br($_contents);
-                        ?>
+                    <span id="output">
+
                     </span>
                 </div>
-            </div>    
+            </div>
+            <script src="js/romandigits.js"></script>
+
         </main>
         <?php require_once('footer.php') ?>
         </div>
