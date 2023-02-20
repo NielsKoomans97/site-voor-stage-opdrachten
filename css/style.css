@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+
+    font-family: 'Open Sans',sans-serif;
+    font-weight:300;
+}
+
+.background{
+    background: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+b{
+    font-weight:600;
+}
+
+.wrapper
+{
+    margin:0 auto; 
+    max-width:1280px;
+
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.headercontainer{
+    display:block;
+    background-color:#fff8f6
+}
+
+header
+{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-icon{
+    margin-right:10px;
+}
+
+nav
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    margin-left:20px;
+    padding:15px;
+
+    color:black;
+    text-decoration: none;
+
+    border-width:2px;
+    border-style: dotted;
+
+    transition: 0.2s;
+}
+
+nav a:hover{
+    color:rgb(240, 45, 15);
+
+    transition: 0.2s;
+}
+
+nav a:left{
+    color:black;
+    transition:0.2s;
+}
+
+.logo{
+    font-size:18px;
+    font-weight:800;
+}
+
+main{
+    width:100%;
+}
+
+main .container-title{
+    font-weight:600;
+    margin-bottom:10px;
+
+    text-decoration: underline;
+}
+
+footer p{
+    color:white;
+    font-size:16px;
+    font-weight:500;
+
+    padding-bottom:10px;
+}
+
+
+.pagepart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-left:10px;
+    padding-right:10px;
+
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.pagepart-right-container{
+    background-color: rgba(202, 97, 80, 0.897);
+}
+
+.pagepart-left-container{
+    background-color: rgba(109, 18, 4, 0.897);
+}
+
+.vraagteken{
+   width:200px;
+}
+
+.textalign-right-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.textalign-right-container span{
+    text-align: start;
+    line-break: strict;
+
+    font-size:22px;
+
+    width:600px;
+}
+
+
+.textalign-left-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    width: 100;
+
+
+    color: white;
+}
+
+.textalign-left-container span{
+    text-align: start;
+    line-break: strict;
+
+    font-size:22px;
+
+    width:fit-content;
+}
+
+.arrow-icon{
+    width:200px;
+}
+
+.arrow-icon-reversed{
+    width:200px;
+    rotate: 180deg;
+}
+

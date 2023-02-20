@@ -1,0 +1,4 @@
+Vampires: 93.0 candies per house (or 6603 candies total)
+Zombies : 120.0 candies per house (or 8520 candies total)
+Witches : 150.0 candies per house (or 10650 candies total)
+Houses  : 71
