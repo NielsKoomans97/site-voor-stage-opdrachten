@@ -16,7 +16,7 @@
             <img class="vraagteken" src="img/vraagteken.png">
             <div class="textalign-right-container">
                 <p class="container-title">Uitleg</p>
-                <span>              
+                <span>
                     <?php
                         $_filename = "./opdracht5/challenge.txt";
                         $_contents = file_get_contents($_filename);
@@ -25,15 +25,16 @@
                         echo nl2br($_contents);
                     ?>
                 </span>
-            </div>        
+            </div>
         </div>
         <div class="pagepart pagepart-left-container">
             <div class="textalign-left-container">
                 <p class="container-title">Input</p>
                 <span>
-                    De input is te groot voor deze pagina.
+                    Input is te groot voor deze pagina
                 </span>
-            </div>
+                <!-- <button id="runjson">Run JSON path finder</button> -->
+               </div>
             <img class="arrow-icon-reversed" src="img/output.png">
         </div>
         <div class="pagepart pagepart-right-container">
@@ -54,8 +55,12 @@
                         echo nl2br($_contents);
                     ?>
                 </span>
+                <span id="output1"></span>
+                <span id="output2"></span>
             </div>
-        </div>    
+        </div>
+
+        <script src="../js/getpath.js"></script>
     </main>
     <?php require_once('footer.php') ?>
     </div>
