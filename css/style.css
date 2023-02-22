@@ -142,11 +142,16 @@ footer p{
 
 .textalign-right-container span{
     text-align: start;
-    line-break: strict;
+    line-break:auto;
+    word-break: break-all;
 
     font-size:22px;
 
-    width:-400px;
+    width:fit-content;
+
+    max-width:700px;
+    /* height:100px; */
+
 }
 
 
@@ -164,14 +169,15 @@ footer p{
 
 .textalign-left-container span{
     text-align: start;
-    line-break: strict;
+    line-break:auto;
+    word-break: break-all;
 
     font-size:22px;
 
     width:fit-content;
 
-    width:-400px;
-
+    max-width:700px;
+    /* height:100px; */
 }
 
 .textalign-left-container button{
@@ -215,3 +221,6 @@ footer p{
     rotate: 180deg;
 }
 
+.output{
+    max-width:200px; !important
+}
