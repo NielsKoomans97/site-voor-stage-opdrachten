@@ -28,3 +28,5 @@ Output:
 - Load the input.txt
 - Loop trough the strings, each string contains a group of children and the amount of houses they have been to
 - Output the amount of candy each kid gets at the end of the night
+
+h

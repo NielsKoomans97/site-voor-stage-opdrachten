@@ -21,3 +21,5 @@ Output:
 # How do I do it?
 - Write a function which loops from 1 to 100 and accepts 2 parameters (Fizz & Buzz)
 - Output the loop from 1 to 100 where the given parameters are correctly replaced with the words (or first letter of): Fizz or Buzz.
+
+h

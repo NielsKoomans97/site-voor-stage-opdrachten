@@ -20,3 +20,5 @@ Output:
 # How do I do it?
 - Load the string(s) from the input.txt
 - Find a way to clean them up
+
+h

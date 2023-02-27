@@ -24,3 +24,5 @@ Points awarded for:
 ** Amount of lines (less is more)
 
 Grades per category: 1 - 5. The person with the most points wins a price.
+
+h
