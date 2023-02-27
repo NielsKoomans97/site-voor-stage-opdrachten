@@ -2,6 +2,7 @@
     <header>
         <img class="logo-icon" src="https://lyfter.nl/app/themes/lyfter-child/dist/theme/assets/brand-logo-bcc57246.svg">
         <span class="logo">Opdrachten Lyfter</span>
+        <h5>Door Niels Koomans.</h5>
         <nav>
             <a href="index.php">Opdracht 1 - Star Wars Message</a>
             <a href="opdracht_2.php">Opdracht 2 - Fizz Buzz</a>

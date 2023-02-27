@@ -1,3 +1,3 @@
 <footer>
-    <p>Niels Koomans</p>
+    <p>Niels Koomans 2023</p>
 </footer>
